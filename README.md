@@ -1,17 +1,16 @@
-RFStockalike
+RealFuels-Stock
 ============
 
-This is a set of configs for the [Real Fuels mod](http://forum.kerbalspaceprogram.com/threads/64118) designed to fit in with stock. This will be best with stock and stock-aligned mods, on a stock-scaled Kerbin or 6.4x sized Kerbin.
+Originally created by Raptor831, RealFuels-Stock is a set of configs for the [Real Fuels mod](https://github.com/NathanKell/ModularFuelSystem/releases/tag/rf-v12.8.4.1) designed to fit in with stock or upto 3.2x sized Kerbin.
 
-If you play stock, you should set the Real Fuels setting useRealisticMass = false in RealSettings.cfg. If you play with the 6.4x scale Kerbin, leave that setting as default.
+Raptor831 was last seen more than a year ago, so i decided to adopt RF-Stock and update to the newest version
 
-This does require Real Fuels to be installed as well as ModuleManager 2.x. If you have Real Fuels running already, you have everything you need.
+This does require [Real Fuels](https://github.com/NathanKell/ModularFuelSystem/releases/tag/rf-v12.8.4.1) to be installed as well as [Community Resource Pack](https://github.com/BobPalmer/CommunityResourcePack/releases), [Solver Engines](https://github.com/KSP-RO/SolverEngines/releases) and [ModuleManager 4.x.x.](https://forum.kerbalspaceprogram.com/index.php?/topic/50533-18x-19x-module-manager-413-november-30th-2019-right-to-ludicrous-speed/)
 
 Installation
 ------------
 
 Install the RealFuels-Stockalike folder to the <KSP root>/GameData/ folder, and install the RealPlume-RFStockalike folder to <KSP root>/GameData/RealPlume.
-
 
 License
 -------

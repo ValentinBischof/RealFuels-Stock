@@ -1,0 +1,5 @@
+These configs are licensed under:
+
+CreativeCommons Attribution-ShareAlike 4.0 International License.
+
+You are free to redistribute and/or alter these files, provided you give credit. Details can be found here: http://creativecommons.org/licenses/by-sa/4.0/

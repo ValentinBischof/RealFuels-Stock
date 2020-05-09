@@ -1,0 +1,28 @@
+language: node_js
+node_js:
+- stable
+
+
+env:
+  global:
+  - REPO=RFStockalike
+branches:
+  # expected format: v1.0.0
+  only:
+  - /^v\d+(\.\d+)+$/
+before_deploy:
+- cd ..
+- pwd
+- ls
+- zip -r ${REPO}-${BUILD_ENV}-${TRAVIS_TAG}-${TRAVIS_BUILD_NUMBER}.zip ${REPO} -x *.xls*
+script: echo "Deploying to GitHub releases ..."
+deploy:
+  provider: releases
+  api_key:
+    secure: dVkURptPalJyo86s+r0hCMIH0nmNmebrTWpIDCxwHzCrKeHpo9ODNDyUUnUVPNTB/1up7RNd0RmUHdFS2ItTiUqQX/Ciofiw/m1C3E3ss6Zi4g/F3xCrRduxoqAj2MvEUL3y1I93l/b6EC763awHvImqo/81VS7CCXnEfFDUAQDrJnONm5fWcjeF/00W6rlxwgGe9hoA8IxxK4Q2KtmjQQGOx44GEZB7c+vwhYT6WSchHF28bOIY0u2HWyx6DxjlEqhMgokw3EOvrWgH6BekHfbACAK86MNGpCO84NkmaDhI3FL/a8v0/a3HUab7hK4kpO1IaVYKyoHSAG3E0pIIGNNa0OCRbOGi0hoKM8vB3M/m0tjhHUoE947Dqc9Qi8p75u7jZoxMggCERp8ZT/nO1XODcdmqrpUkLzIqGlMr8sJygxYgu958LiuWR4gO/ha0jgJq1Vd7CWpCgFrJfSjrzzaLGZwXnAfN39fH5/AlYu8SWOb/UcHgVICdab1Zg1Mbh2FESSWKls4emRYBtOhZziagxNEKbAKw/5ks6UgX5C51HQ2r6nUtb2l8FmuSUYVunYHuQ1HT32SC4v8I4ngVga2b1cMpE+yBW2HQccrTkyfg3o532HdGmmfRuwBBOj9R3lewF0u30EjZlFV1N5aC2X3KzYEMOUMWqb5REr3J22I=
+  file: ${REPO}-${BUILD_ENV}-${TRAVIS_TAG}-${TRAVIS_BUILD_NUMBER}.zip
+  on:
+    repo: Raptor831/RFStockalike
+  skip_cleanup: true
+  on:
+    tags: true

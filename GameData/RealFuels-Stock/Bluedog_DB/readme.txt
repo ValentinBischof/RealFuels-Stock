@@ -14,8 +14,7 @@ Nearly all the RCS should be flexible in its configuration and tech requirements
 
 Thrust is based on BDB values and scaled RO values for extra configs. Currently testing whether each historical vehicle can fullfill the Historic Mission Contract pack launched with MechJebs PEG Ascent Guidance or Gravity Turn. 
 
-B9Partswitch throws out a bunch of errors which can be ignored. Even with the partswitch patch the errors show so its disabled by default. Enable it by renaming its extension to ".cfg" The purpose of the patch is to prevent B9Partswitch from messing with the engine stats.
-
+B9Partswitch throws out a bunch of errors which can be ignored. 
 *Could possibly future proof for future BDB updates as well as provide a base for any mods engines based on real engines. 
 
 -Rocket Belle

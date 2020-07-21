@@ -20,4 +20,4 @@ Thrust is based on BDB values and scaled RO values for extra configs. Currently 
 
 P.S.
 
-Please direct all issues and questions related to BDB configs to me, Bellabong @ https://github.com/Bellabong/RealFuels-Stock-BDB/issues
+Please direct all issues and questions related to BDB configs to me, Bellabong @ https://github.com/Bellabong/RealFuels-Stock/issues

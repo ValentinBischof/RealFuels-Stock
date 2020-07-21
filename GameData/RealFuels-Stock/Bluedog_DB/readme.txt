@@ -18,6 +18,8 @@ Thrust is based on BDB values and scaled RO values for extra configs. Currently 
 
 *Could possibly future proof for future BDB updates as well as provide a base for any mods engines based on real engines.
 
+An optional patch for TAC users with 24h days is avaiable. Consumption rates are divided by 4 as the supplies added by BDB TAC patches are based on 6h days
+
 -Rocket Belle
 
 P.S.

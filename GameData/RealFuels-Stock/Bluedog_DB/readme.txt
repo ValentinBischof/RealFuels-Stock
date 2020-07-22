@@ -1,5 +1,5 @@
 RealFuels-Stock for BDB 1.7dev
-Current State: ALPHA
+Current State: BETA
 
 
 These are engine and tank configurations for BDB 1.7dev up to the CentaurD RL10 addition even though RealFuels is pretty incompatible with B9PartSwitch configurations but most of it is working. 
@@ -18,7 +18,9 @@ Thrust is based on BDB values and scaled RO values for extra configs. Currently 
 
 *Could possibly future proof for future BDB updates as well as provide a base for any mods engines based on real engines.
 
-An optional patch for TAC users with 24h days is avaiable. Consumption rates are divided by 4 as the supplies added by BDB TAC patches are based on 6h days
+An optional patch for TAC users with 24h days is avaiable. Consumption rates are divided by 4 as the supplies added by BDB TAC patches are based on 6h days but only works on a new game.
+
+B9 Engine Switch disabler is disabled because it also screws with the mesh switching and loads all models.
 
 -Rocket Belle
 

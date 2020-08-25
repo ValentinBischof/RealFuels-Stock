@@ -31,6 +31,11 @@ Changelog:
 1.0
 	- Updated BDB 1.6 RF configs to BDB 1.7
 	- added some conceptual alternate fuel configurations to the AJ10, RL10 and XLR81
-	- added Kerbalism/TAC support
+	- added TAC support
+	- RCS has been given full RO-like flexibility
 1.1
-	- Tech level rebalance. Performance at the base tech levels should match up to default BDB performance.
+	- General Tech level rebalance. Performance at the base tech levels should match up to default BDB performance. Saturn V no longer underpowered. 
+	- added Kerbalism support
+	- added engines from BDB Extras
+	- Rework of probe engines
+	- Reorganization of Engines from Solids folder

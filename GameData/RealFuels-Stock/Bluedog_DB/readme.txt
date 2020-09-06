@@ -40,3 +40,4 @@ Changelog:
 	- Rework of probe engines
 	- Reorganization of Engines from Solids folder
 	- Added F1B
+	- Added Hephaistos Support (BE4, GEM63XL, RL10) https://forum.kerbalspaceprogram.com/index.php?/topic/196738-110x-hephaistos-stockalike-ula-vulcan-official-stand-alone-bdb-expansion/

@@ -34,7 +34,7 @@ Changelog:
 	- added TAC support
 	- RCS has been given full RO-like flexibility
 1.1
-	- General Tech level rebalance. Performance at the base tech levels should match up to default BDB performance. Saturn V no longer underpowered. 
+	- General Tech level rebalance. Performance at the base tech levels should match up to default BDB performance. Saturn V no longer underpowered.
 	- added Kerbalism support
 	- added engines from BDB Extras
 	- Rework of probe engines
@@ -42,3 +42,4 @@ Changelog:
 	- Added F1B
 	- Added Hephaistos Support (BE4, GEM63XL, RL10) https://forum.kerbalspaceprogram.com/index.php?/topic/196738-110x-hephaistos-stockalike-ula-vulcan-official-stand-alone-bdb-expansion/
 	- Vega Update
+	- Apollo Block 3 Service Module TankType fixed

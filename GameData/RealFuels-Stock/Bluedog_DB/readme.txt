@@ -45,3 +45,8 @@ Changelog:
 	- Apollo Block 3 Service Module TankType fixed
 	- Delta IV Addition
 	- Thor node fixes
+
+1.2
+	- Updated to BDB's waterfall compatibility
+	- Integrated new RealFuels and B9Partswitch integration, you only need to set the engine configuration in the RealFuels engine menu and the according visuals will be selected (engine nozzle, waterfall plume)
+	- added missing engines

@@ -47,6 +47,7 @@ Changelog:
 	- Thor node fixes
 
 1.2
-	- Updated to BDB's waterfall compatibility
+	- Updated to BDB's waterfall compatibility. Fixed some engine noises that werent playing. In addition the flourine based engines will have different plumes based on yellow.
 	- Integrated new RealFuels and B9Partswitch integration, you only need to set the engine configuration in the RealFuels engine menu and the according visuals will be selected (engine nozzle, waterfall plume)
-	- added missing engines
+	- Added missing engine from the final release of BDB 1.8
+	- Added support for the X-20 Moroz (Stockalike Dynasoar made for the BDB Titan) https://forum.kerbalspaceprogram.com/index.php?/topic/184435-1120-%D0%B6-20-moroz-spaceplane/

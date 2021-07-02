@@ -1,21 +1,19 @@
-RealFuels-Stock for BDB 1.7
-Current State: 1.1
+RealFuels-Stock for BDB 1.8
+Current State: 1.2 - Yellow is the new Black
 
-These are engine and tank configurations for BDB 1.7dev up to the CentaurD RL10 addition.
+These are engine and tank configurations for BDB 1.8 and some part mods meant to be integrated with BDB such as Hephaistos and the X-20 Moroz. 
 
-Configs are based on the configs in BD_Extras although they've been completely overhauled since there's been a lot of changes to BDB since that was released. Some older configs are in the DEPRECATED folder for backwards compatability. 
+Configs are based on the original BDB RF for BDB 1.6. Thrust is based on BDB values and scaled RO values for extra configs. Tested at 3.2x scale.
 
 Variable tank sizes from newer BDB parts using B9PartSwitch aren't supported. As a workaround each tank is duplicated, sensibly renamed and their B9PartSwitch selection limited. 
 
-All engines featured in BDB 1.7dev have RF versions of their B9 configs including appropriate variant fuels such as the HDA 8096 and RP-1 powered Titan engines configured. There's even a few extra configs and more variants are planned based on spelunking through RO configs and Astronautix*
+All engines featured in BDB 1.8d have RF versions of their B9 configs including appropriate variant fuels such as the HDA 8096 and RP-1 powered Titan engines configured. There's even a few extra configs and more variants are planned based on spelunking through RO configs and Astronautix.
 
-All engines make use of techlevels for fine tuning and their subtype requirements have the appropriate tech requirement.
+As a KSP first there are now yellow plumes for Fluorine based engines configurations! Have fun burning concrete and leaving a trail of death. Good thing they're orbital engines. 
+
+RF anbd B9 integration ensures you only have to deal with one menu when swapping between engines - the visuals (Plumes, engine assembly and noxxle) will be set accordingly. 
 
 Nearly all the RCS should be flexible in its configuration and have appropriate tech requirements.
-
-Thrust is based on BDB values and scaled RO values for extra configs. Tested at 3.2x scale.
-
-*Could possibly future proof for future BDB updates as well as provide a base for any mods with engines based on real engines.
 
 An optional patch for TAC users with 24h days is available. Consumption rates are divided by 4 as the supplies added by BDB TAC patches are based on 6h days but only works on a new game. 
 
@@ -49,5 +47,7 @@ Changelog:
 1.2
 	- Updated to BDB's waterfall compatibility. Fixed some engine noises that werent playing. In addition the flourine based engines will have different plumes based on yellow.
 	- Integrated new RealFuels and B9Partswitch integration, you only need to set the engine configuration in the RealFuels engine menu and the according visuals will be selected (engine nozzle, waterfall plume)
-	- Added missing engine from the final release of BDB 1.8
+	- Added missing engines from the final release of BDB 1.8
 	- Added support for the X-20 Moroz (Stockalike Dynasoar made for the BDB Titan) https://forum.kerbalspaceprogram.com/index.php?/topic/184435-1120-%D0%B6-20-moroz-spaceplane/
+	- Removed deprecated folder
+	- fixed GE405 engine weight. 

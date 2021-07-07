@@ -3,6 +3,8 @@ Current State: 1.2 - Yellow is the new Black
 
 These are engine and tank configurations for BDB 1.8 and some part mods meant to be integrated with BDB such as Hephaistos and the X-20 Moroz. 
 
+If you're updating your RF BDB configuration from 1.1 to 1.2 delete everything inside the GameData\RealFuels-Stock\Bluedog_DB  and place the contents of the zip in your GameData\RealFuels-Stock\ folder.
+
 Configs are based on the original BDB RF for BDB 1.6. Thrust is based on BDB values and scaled RO values for extra configs. Tested at 3.2x scale.
 
 Variable tank sizes from newer BDB parts using B9PartSwitch aren't supported. As a workaround each tank is duplicated, sensibly renamed and their B9PartSwitch selection limited. 
@@ -47,7 +49,13 @@ Changelog:
 1.2
 	- Updated to BDB's waterfall compatibility. Fixed some engine noises that werent playing. In addition the flourine based engines will have different plumes based on yellow.
 	- Integrated new RealFuels and B9Partswitch integration, you only need to set the engine configuration in the RealFuels engine menu and the according visuals will be selected (engine nozzle, waterfall plume)
+	- Upper Solids have returned! Turns out RF doesn't like it when SRB's can be shut down. B9Partswitch integration has been disabled on some SRB's as a resource issue gets resolved.
 	- Added missing engines from the final release of BDB 1.8
 	- Added support for the X-20 Moroz (Stockalike Dynasoar made for the BDB Titan) https://forum.kerbalspaceprogram.com/index.php?/topic/184435-1120-%D0%B6-20-moroz-spaceplane/
+	- Added compatibility with Konstellation Program https://forum.kerbalspaceprogram.com/index.php?/topic/200756-wip18x-konstellation-program-stockalike-ares-v-rocket-and-some-constellation-program-parts/
 	- Removed deprecated folder
 	- fixed GE405 engine weight. 
+	- Engine response times added.
+	- Probe core support added
+
+	- 

@@ -1,0 +1,3 @@
+Tantares LV changelog
+- Added support for missing engines from reworked parts
+- Soyuz engines reworked to provide every variant

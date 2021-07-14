@@ -1,0 +1,16 @@
+@TACLSGlobalSettings:AFTER[TacLifeSupport]
+{
+	@FoodConsumptionRate *= 0.25
+	@WaterConsumptionRate = *= 0.25
+	@OxygenConsumptionRate = *= 0.25
+	@ElectricityConsumptionRate = *= 0.25
+	@BaseElectricityConsumptionRate = *= 0.25
+	@EvaElectricityConsumptionRate = *= 0.25
+	@CO2ProductionRate *= 0.25
+	@WasteProductionRate *= 0.25
+	@WasteWaterProductionRate *= 0.25
+	@MaxTimeWithoutFood = 2592000
+	@MaxTimeWithoutWater = 259200
+	@MaxTimeWithoutOxygen = 180
+	@MaxTimeWithoutElectricity = 259200
+}

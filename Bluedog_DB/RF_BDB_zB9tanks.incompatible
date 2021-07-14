@@ -1,0 +1,364 @@
+@PART[bluedog_Vanguard_S2_Tank]:FOR[RealFuels_StockEngines]
+{	
+	@MODULE[ModuleEngineConfigs]:HAS[#engineID[RCS]]
+	{
+	
+		!CONFIG[Nitrogen] {}
+		!CONFIG[UDMH+IRFNA-III] {}
+		!CONFIG[Aerozine50+NTO] {}
+		!CONFIG[MMH+NTO] {}
+	}
+	
+	@MODULE[ModuleB9PartSwitch]:HAS[#moduleID[volumeSwitch]]
+	{
+		@SUBTYPE,0
+		{
+			MODULE
+			{
+				IDENTIFIER
+				{
+					name = ModuleFuelTanks
+				}
+				DATA
+				{
+					volume = 325
+					TANK
+					{
+						name = Hydrazine
+						amount = full
+						maxAmount = 7.6923076923%
+
+					}
+				}
+			}
+		}
+        
+		@SUBTYPE,1
+		{
+			!volumeAddedToParent
+            
+			MODULE
+			{
+				IDENTIFIER
+				{
+					name = ModuleFuelTanks
+				}
+				DATA
+				{
+					volume = 625
+					TANK
+					{
+						name = Hydrazine
+						amount = full
+						maxAmount = 4%
+					}
+				}
+			}
+ 		}
+	}
+}
+
+@PART[bluedog_Vanguard_S1_Tank]:FOR[RealFuels_StockEngines]
+{	
+	@MODULE[ModuleB9PartSwitch]:HAS[#moduleID[volumeSwitch]]
+	{
+		@SUBTYPE,0
+		{
+			MODULE
+			{
+				IDENTIFIER
+				{
+					name = ModuleFuelTanks
+				}
+				DATA
+				{
+					volume = 2450
+				}
+			}
+		}
+        
+		@SUBTYPE,1
+		{
+			!volumeAddedToParent
+            
+			MODULE
+			{
+				IDENTIFIER
+				{
+					name = ModuleFuelTanks
+				}
+				DATA
+				{
+					volume = 4000
+				}
+			}
+		}
+	}
+}
+
+@PART[bluedog_Thor_LowerTank_1]:FOR[RealFuels_StockEngines]
+{	
+	@MODULE[ModuleB9PartSwitch]:HAS[#moduleID[meshSwitchLength]]
+	{
+		@SUBTYPE,0
+		{
+			MODULE
+			{
+				IDENTIFIER
+				{
+					name = ModuleFuelTanks
+				}
+				DATA
+				{
+				volume = 7000
+				}
+			}
+		}
+        
+		@SUBTYPE,1
+		{
+			!volumeAddedToParent
+			
+			MODULE
+			{
+				IDENTIFIER
+				{
+					name = ModuleFuelTanks
+				}
+				DATA
+				{
+					volume = 10200
+				}
+			}
+		}
+		@SUBTYPE,2
+		{
+			!volumeAddedToParent
+			
+			MODULE
+			{
+				IDENTIFIER
+				{
+					name = ModuleFuelTanks
+				}
+				DATA
+				{
+					volume = 13000
+				}
+			}
+		}
+		@SUBTYPE,3
+		{
+			!volumeAddedToParent
+			
+			MODULE
+			{
+				IDENTIFIER
+				{
+					name = ModuleFuelTanks
+				}
+				DATA
+				{
+					volume = 13000
+
+				}
+			}
+		}
+	}
+}
+
+@PART[bluedog_Thor_Uppertank_1]:FOR[RealFuels_StockEngines]
+{	
+	@MODULE[ModuleB9PartSwitch]:HAS[#moduleID[meshSwitchLength]]
+	{
+		@SUBTYPE,0
+		{
+			MODULE
+			{
+				IDENTIFIER
+				{
+					name = ModuleFuelTanks
+				}
+				DATA
+				{
+				volume = 7000
+
+				}
+			}
+		}
+        
+		@SUBTYPE,1
+		{
+			!volumeAddedToParent
+			
+			MODULE
+			{
+				IDENTIFIER
+				{
+					name = ModuleFuelTanks
+				}
+				DATA
+				{
+					volume = 9000
+				}
+			}
+		}
+	}
+}
+
+@PART[bluedog_ThorAble_Tank]:FOR[RealFuels_StockEngines]
+{	
+	@MODULE[ModuleEngineConfigs]:HAS[#engineID[RCS]]
+	{
+	
+		!CONFIG[Nitrogen] {}
+		!CONFIG[UDMH+IRFNA-III] {}
+		!CONFIG[Aerozine50+NTO] {}
+		!CONFIG[MMH+NTO] {}
+	}
+	@MODULE[ModuleB9PartSwitch]:HAS[#moduleID[volumeSwitch]]
+	{
+		@SUBTYPE,0
+		{
+			MODULE
+			{
+				IDENTIFIER
+				{
+					name = ModuleFuelTanks
+				}
+				DATA
+				{
+					volume = 325
+					TANK
+					{
+						name = Hydrazine
+						amount = full
+						maxAmount = 7.8%
+					}
+				}
+			}
+		}
+        
+		@SUBTYPE,1
+		{
+			!volumeAddedToParent
+            
+			MODULE
+			{
+				IDENTIFIER
+				{
+					name = ModuleFuelTanks
+				}
+				DATA
+				{
+					volume = 625
+					TANK
+					{
+						name = Hydrazine
+						amount = full
+						maxAmount = 4.8%
+					}
+				}
+				
+			}
+ 		}
+	}
+}
+
+@PART[bluedog_DeltaB_Tank]:FOR[RealFuels_StockEngines]
+{	
+	@MODULE[ModuleEngineConfigs]:HAS[#engineID[RCS]]
+	{
+	
+		!CONFIG[Nitrogen] {}
+		!CONFIG[UDMH+IRFNA-III] {}
+		!CONFIG[Aerozine50+NTO] {}
+		!CONFIG[MMH+NTO] {}
+	}
+	
+	@MODULE[ModuleB9PartSwitch]:HAS[#moduleID[volumeSwitch]]
+	{
+		@SUBTYPE,0
+		{
+			MODULE
+			{
+				IDENTIFIER
+				{
+					name = ModuleFuelTanks
+				}
+				DATA
+				{
+					volume = 425
+					TANK
+					{
+						name = Hydrazine
+						amount = full
+						maxAmount = 7.0588235294%
+					}
+				}
+			}
+		}
+        
+		@SUBTYPE,1
+		{
+			!volumeAddedToParent
+            
+			MODULE
+			{
+				IDENTIFIER
+				{
+					name = ModuleFuelTanks
+				}
+				DATA
+				{
+					volume = 725
+					
+					TANK
+					{
+						name = Hydrazine
+						amount = full
+						maxAmount = 4.8%
+					}
+				}
+			}
+ 		}
+	}
+}
+
+@PART[bluedog_Redstone_FuelTank]:FOR[RealFuels_StockEngines]
+{	
+	@MODULE[ModuleB9PartSwitch]:HAS[#moduleID[meshSwitchLength]]
+	{
+		@SUBTYPE,0
+		{
+			@name= Etoh-C
+			!volumeAddedToParent
+			MODULE
+			{
+				IDENTIFIER
+				{
+					name = ModuleFuelTanks
+				}
+				DATA
+				{
+					volume = 8500
+				}
+			}
+		}
+		@SUBTYPE,1
+		{
+			@name = Etoh-H
+			MODULE
+			{
+				IDENTIFIER
+				{
+					name = ModuleFuelTanks
+				}
+				DATA
+				{
+					volume = 7000
+				}
+			}
+		}
+	}
+}

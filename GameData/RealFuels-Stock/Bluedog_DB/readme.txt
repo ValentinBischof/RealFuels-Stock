@@ -53,8 +53,11 @@ Changelog:
 	- Added missing engines from the final release of BDB 1.8
 	- Added support for the X-20 Moroz (Stockalike Dynasoar made for the BDB Titan) https://forum.kerbalspaceprogram.com/index.php?/topic/184435-1120-%D0%B6-20-moroz-spaceplane/
 	- Added compatibility with Konstellation Program https://forum.kerbalspaceprogram.com/index.php?/topic/200756-wip18x-konstellation-program-stockalike-ares-v-rocket-and-some-constellation-program-parts/
-	- Removed deprecated folder
 	- fixed GE405 engine weight. 
-	- Engine response times added.
+	- Throttle response times added.
 	- Probe core support added
-        - 
+        - Apollo/Skylab Rework support
+	- Hephaistos engines Waterfall support
+	- DCSS variation support
+	- never enough Centaur variants
+	
